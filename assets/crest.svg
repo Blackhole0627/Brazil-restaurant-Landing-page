@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" role="img" aria-label="Parrilla Secreta — Asado, Fogo, Brasa, desde 2012">
+  <defs>
+    <linearGradient id="flameC" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0" stop-color="#b7281c"/>
+      <stop offset="0.5" stop-color="#a02a26"/>
+      <stop offset="1" stop-color="#ffcf5c"/>
+    </linearGradient>
+    <linearGradient id="ringC" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffcf5c"/>
+      <stop offset="0.5" stop-color="#f7b733"/>
+      <stop offset="1" stop-color="#a02a26"/>
+    </linearGradient>
+    <path id="topArc" d="M 34 120 A 86 86 0 0 1 206 120"/>
+    <path id="botArc" d="M 208 120 A 88 88 0 0 1 32 120"/>
+  </defs>
+
+  <!-- Rings -->
+  <circle cx="120" cy="120" r="112" fill="none" stroke="url(#ringC)" stroke-width="4"/>
+  <circle cx="120" cy="120" r="103" fill="none" stroke="#a02a26" stroke-width="1.5" opacity="0.6"/>
+  <circle cx="120" cy="120" r="66" fill="none" stroke="#f7b733" stroke-width="1" opacity="0.35"/>
+
+  <!-- Curved text -->
+  <text font-family="Georgia,'Times New Roman',serif" font-weight="700" fill="#f4ede4" font-size="20" letter-spacing="3">
+    <textPath href="#topArc" startOffset="50%" text-anchor="middle">PARRILLA SECRETA</textPath>
+  </text>
+  <text font-family="Georgia,'Times New Roman',serif" fill="#f7b733" font-size="13" letter-spacing="5">
+    <textPath href="#botArc" startOffset="50%" text-anchor="middle">ASADO · FOGO · BRASA</textPath>
+  </text>
+
+  <!-- Side ornaments -->
+  <g fill="#f7b733">
+    <path d="M22 120 l6 -6 6 6 -6 6 z"/>
+    <path d="M206 120 l6 -6 6 6 -6 6 z"/>
+  </g>
+
+  <!-- Center emblem -->
+  <g transform="translate(120 116)">
+    <!-- crossed skewers -->
+    <g stroke="#f7b733" stroke-width="2.6" stroke-linecap="round" opacity="0.9">
+      <line x1="-30" y1="34" x2="30" y2="-30"/>
+      <line x1="30" y1="34" x2="-30" y2="-30"/>
+    </g>
+    <circle cx="30" cy="-30" r="3" fill="#f7b733"/>
+    <circle cx="-30" cy="-30" r="3" fill="#f7b733"/>
+    <!-- flame -->
+    <path d="M0 -40 C18 -18, 23 -2, 15 14 C10 24, 3 28, 0 40 C-3 28, -10 24, -15 14 C-23 -2, -18 -18, 0 -40 Z" fill="url(#flameC)"/>
+    <path d="M0 -16 C10 -4, 15 5, 10 16 C6 24, 1 26, 0 34 C-1 26, -6 24, -10 16 C-15 5, -10 -4, 0 -16 Z" fill="#ffe08a" opacity="0.9"/>
+    <!-- grill -->
+    <g stroke="#f7b733" stroke-width="3.2" stroke-linecap="round">
+      <line x1="-20" y1="48" x2="20" y2="48"/>
+      <line x1="-14" y1="55" x2="14" y2="55"/>
+    </g>
+  </g>
+
+  <!-- EST. 2012 -->
+  <text x="120" y="204" text-anchor="middle" font-family="Georgia,serif" font-size="12" letter-spacing="4" fill="#cabfb2">EST. 2012</text>
+</svg>

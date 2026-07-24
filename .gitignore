@@ -1,0 +1,13 @@
+# OS / editor junk
+.DS_Store
+Thumbs.db
+desktop.ini
+*.log
+
+# Dependencies (none used, but just in case)
+node_modules/
+
+# Local env / secrets — never commit tokens
+.env
+.env.*
+*.token

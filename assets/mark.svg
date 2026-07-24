@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-label="Parrilla Secreta">
+  <defs>
+    <linearGradient id="flameM" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0" stop-color="#b7281c"/>
+      <stop offset="0.5" stop-color="#a02a26"/>
+      <stop offset="1" stop-color="#ffcf5c"/>
+    </linearGradient>
+    <linearGradient id="ringM" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffcf5c"/>
+      <stop offset="0.5" stop-color="#f7b733"/>
+      <stop offset="1" stop-color="#a02a26"/>
+    </linearGradient>
+  </defs>
+
+  <!-- rings -->
+  <circle cx="60" cy="60" r="54" fill="none" stroke="url(#ringM)" stroke-width="3"/>
+  <circle cx="60" cy="60" r="47" fill="none" stroke="#a02a26" stroke-width="1.2" opacity="0.55"/>
+
+  <!-- crossed skewers behind flame -->
+  <g stroke="#f7b733" stroke-width="2.4" stroke-linecap="round" opacity="0.85">
+    <line x1="40" y1="86" x2="80" y2="40"/>
+    <line x1="80" y1="86" x2="40" y2="40"/>
+  </g>
+  <circle cx="80" cy="40" r="2.6" fill="#f7b733"/>
+  <circle cx="40" cy="40" r="2.6" fill="#f7b733"/>
+
+  <!-- flame -->
+  <path d="M60 28 C74 46, 78 58, 72 70 C68 79, 62 82, 60 92 C58 82, 52 79, 48 70 C42 58, 46 46, 60 28 Z" fill="url(#flameM)"/>
+  <path d="M60 46 C68 56, 72 63, 68 72 C65 78, 61 80, 60 86 C59 80, 55 78, 52 72 C48 63, 52 56, 60 46 Z" fill="#ffe08a" opacity="0.9"/>
+
+  <!-- grill -->
+  <g stroke="#f7b733" stroke-width="3" stroke-linecap="round">
+    <line x1="45" y1="99" x2="75" y2="99"/>
+    <line x1="49" y1="105" x2="71" y2="105"/>
+  </g>
+</svg>

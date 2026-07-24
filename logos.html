@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Parrilla Secreta — Logo & Identidade Visual</title>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
+  <style>
+    :root { --ember:#a82531; --gold:#f7b733; --cream:#f4ede4; }
+    * { box-sizing: border-box; margin: 0; }
+    body { font-family: 'Inter', system-ui, sans-serif; background: #17110d; color: var(--cream); padding: 3rem 1.5rem; }
+    h1 { font-family:'Bebas Neue',sans-serif; font-size: 2.6rem; letter-spacing: 2px; text-align:center; }
+    h1 span { color: var(--ember); }
+    .sub { text-align:center; color:#cabfb2; margin: .4rem 0 2.5rem; }
+    .grid { max-width: 1000px; margin: 0 auto; display: grid; grid-template-columns: repeat(auto-fit,minmax(260px,1fr)); gap: 1.4rem; }
+    .tile { border:1px solid rgba(247,183,51,.25); border-radius: 16px; padding: 2rem 1.5rem; display:flex; flex-direction:column; align-items:center; gap:1rem; min-height: 240px; justify-content:center; }
+    .tile.light { background: var(--cream); }
+    .tile.dark { background: #1a1310; }
+    .tile.ember { background: linear-gradient(135deg,#a82531,#5e1019); }
+    .label { font-size:.8rem; letter-spacing:.14em; text-transform:uppercase; color:#8a7f72; }
+    .tile.light .label { color:#9a8d7c; }
+    img { display:block; }
+    .swatches { max-width:1000px; margin: 2.5rem auto 0; display:flex; flex-wrap:wrap; gap:1rem; justify-content:center; }
+    .sw { width:120px; border-radius:12px; overflow:hidden; text-align:center; font-size:.72rem; }
+    .sw .chip { height:70px; }
+    .sw .name { padding:.5rem; background:#211812; }
+  </style>
+</head>
+<body>
+  <h1>Parrilla<span>Secreta</span> · Identidade Visual</h1>
+  <p class="sub">Logo vetorial (SVG) — escalável, nítido em qualquer tamanho.</p>
+
+  <div class="grid">
+    <div class="tile dark">
+      <img src="assets/crest.svg" alt="Selo / brasão" width="180" height="180" />
+      <span class="label">Selo / Brasão</span>
+    </div>
+    <div class="tile dark">
+      <img src="assets/logo.svg" alt="Lockup horizontal" width="280" />
+      <span class="label">Lockup horizontal</span>
+    </div>
+    <div class="tile dark">
+      <img src="assets/mark.svg" alt="Emblema" width="120" height="120" />
+      <span class="label">Emblema (ícone)</span>
+    </div>
+    <div class="tile light">
+      <img src="assets/crest.svg" alt="Selo em fundo claro" width="150" height="150" style="filter:brightness(.55) saturate(1.2)" />
+      <span class="label">Selo — fundo claro</span>
+    </div>
+    <div class="tile ember">
+      <img src="assets/mark.svg" alt="Emblema em fundo ember" width="110" height="110" style="filter:brightness(0) invert(1)" />
+      <span class="label">Monocromático (fundo cor)</span>
+    </div>
+    <div class="tile dark">
+      <img src="assets/favicon.svg" alt="Favicon" width="72" height="72" />
+      <span class="label">Favicon (aba)</span>
+    </div>
+  </div>
+
+  <div class="swatches">
+    <div class="sw"><div class="chip" style="background:#1a1310"></div><div class="name">Charcoal #1a1310</div></div>
+    <div class="sw"><div class="chip" style="background:#a82531"></div><div class="name">Vinho #a82531</div></div>
+    <div class="sw"><div class="chip" style="background:#f7b733"></div><div class="name">Gold #f7b733</div></div>
+    <div class="sw"><div class="chip" style="background:#b7281c"></div><div class="name">Brasa #b7281c</div></div>
+    <div class="sw"><div class="chip" style="background:#f4ede4"></div><div class="name" style="color:#1a1310;background:#f4ede4">Cream #f4ede4</div></div>
+  </div>
+</body>
+</html>
